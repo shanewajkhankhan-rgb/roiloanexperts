@@ -1,0 +1,20 @@
+{
+  "name": "ROI Loan Experts",
+  "short_name": "ROI Loan Experts",
+  "description": "Loan assistance and DSA services. The Right Loan. The Right Bank. The Right Guidance.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#D6202E",
+  "lang": "en-IN",
+  "categories": ["finance", "business"],
+  "icons": [
+    {
+      "src": "assets/img/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="ROI Loan Experts - The Right Loan. The Right Bank. The Right Guidance.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#121317"/>
+      <stop offset=".55" stop-color="#1A1C22"/>
+      <stop offset="1" stop-color="#40090F"/>
+    </linearGradient>
+    <linearGradient id="mark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E8444F"/>
+      <stop offset="1" stop-color="#8B1420"/>
+    </linearGradient>
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M60 0H0v60" fill="none" stroke="#ffffff" stroke-opacity=".05" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="glow" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#D6202E" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#D6202E" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <circle cx="1050" cy="120" r="360" fill="url(#glow)"/>
+
+  <g transform="translate(84 92)">
+    <rect width="84" height="84" rx="24" fill="url(#mark)"/>
+    <g transform="translate(17 17)" fill="none" stroke="#fff" stroke-width="5.4" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M4 39 17 25l8.5 8.5L42 15"/>
+      <path d="M32 15h11v11"/>
+    </g>
+    <text x="106" y="40" font-family="'Plus Jakarta Sans','Inter',Arial,sans-serif" font-size="34" font-weight="800" fill="#ffffff" letter-spacing="-.5">ROI LOAN EXPERTS</text>
+    <text x="108" y="70" font-family="Inter,Arial,sans-serif" font-size="19" font-weight="600" fill="#F2757F" letter-spacing="3">LOAN ASSISTANCE &#183; DSA</text>
+  </g>
+
+  <text x="84" y="330" font-family="'Plus Jakarta Sans','Inter',Arial,sans-serif" font-size="76" font-weight="800" fill="#ffffff" letter-spacing="-2.4">The Right Loan.</text>
+  <text x="84" y="412" font-family="'Plus Jakarta Sans','Inter',Arial,sans-serif" font-size="76" font-weight="800" fill="#ffffff" letter-spacing="-2.4">The Right Bank.</text>
+  <text x="84" y="486" font-family="Inter,Arial,sans-serif" font-size="34" font-weight="500" fill="#F2757F">The Right Guidance.</text>
+
+  <g transform="translate(84 540)">
+    <rect width="330" height="10" rx="5" fill="#D6202E"/>
+  </g>
+</svg>

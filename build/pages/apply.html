@@ -1,0 +1,247 @@
+@title: Apply for a Loan | Check Eligibility | ROI Loan Experts
+@desc: Apply for loan assistance with ROI Loan Experts. Share your loan type, amount, employment, income, city and mobile number in a short eligibility form. Approval is at the lender&rsquo;s discretion.
+@keywords: apply for loan, loan application, loan eligibility check, loan enquiry form, DSA apply, ROI Loan Experts
+@body: page-apply
+
+<main id="main">
+
+  <section class="phero">
+    <div class="container phero__grid">
+      <div>
+        <nav class="crumbs" aria-label="Breadcrumb">
+          <a href="index.html">Home</a><span class="sep">/</span>
+          <span aria-current="page">Apply for Loan</span>
+        </nav>
+        <p class="eyebrow">Apply</p>
+        <h1 class="h1" style="margin-top:.7rem">Check My <span class="hl">Eligibility</span></h1>
+        <p class="lead" style="margin-top:1.1rem">
+          Six short questions. It takes under a minute, and it helps our team understand your requirement before we contact you.
+        </p>
+        <ul class="hero__meta">
+          <li><svg class="ico" aria-hidden="true"><use href="#i-check-circle"></use></svg>No long form</li>
+          <li><svg class="ico" aria-hidden="true"><use href="#i-check-circle"></use></svg>No upfront payment</li>
+          <li><svg class="ico" aria-hidden="true"><use href="#i-check-circle"></use></svg>No approval guarantee</li>
+        </ul>
+      </div>
+      <div class="phero__aside">
+        <ul class="phero__list">
+          <li><svg class="ico" aria-hidden="true"><use href="#i-check-circle"></use></svg>Details used only to respond to your enquiry</li>
+          <li><svg class="ico" aria-hidden="true"><use href="#i-check-circle"></use></svg>We never ask for OTPs or banking passwords</li>
+          <li><svg class="ico" aria-hidden="true"><use href="#i-check-circle"></use></svg>You decide whether to proceed further</li>
+        </ul>
+        <a class="btn btn-dark" href="documents.html"><svg class="ico" aria-hidden="true"><use href="#i-clipboard"></use></svg> Documents Required</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="article">
+        <div>
+          <div class="section-head reveal">
+            <p class="eyebrow">Eligibility check</p>
+            <h2 class="h2" style="margin-top:.6rem">Let Us Find <span class="hl">Suitable Loan Options</span> For You</h2>
+            <p class="lead">Answer a few quick questions. Your answers help us understand which categories may be relevant for your profile.</p>
+          </div>
+
+          <form class="matcher reveal-scal" id="matcher" novalidate>
+            <div class="matcher__top">
+              <div class="matcher__prog">
+                <div class="matcher__track"><div class="matcher__fill"></div></div>
+                <p class="matcher__count">Step 1 of 6</p>
+              </div>
+              <ol class="matcher__steps">
+                <li class="is-active">Loan Type</li><li>Amount</li><li>Employment</li><li>Income</li><li>City</li><li>Mobile</li>
+              </ol>
+            </div>
+
+            <div class="matcher__body">
+              <section class="matcher__panel is-active" data-step="1" role="group" aria-labelledby="aq1">
+                <h3 class="matcher__q" id="aq1">What type of loan do you need?</h3>
+                <p class="matcher__hint">Select the option closest to your requirement.</p>
+                <div class="matcher__opts">
+                  <label class="opt"><input type="radio" name="loanTypeChoice" value="Personal Loan" data-required data-msg="Please select a loan type."><span class="opt__ico"><svg class="ico" aria-hidden="true"><use href="#i-personal"></use></svg></span><span class="opt__txt">Personal</span></label>
+                  <label class="opt"><input type="radio" name="loanTypeChoice" value="Business Loan" data-required><span class="opt__ico"><svg class="ico" aria-hidden="true"><use href="#i-business"></use></svg></span><span class="opt__txt">Business</span></label>
+                  <label class="opt"><input type="radio" name="loanTypeChoice" value="Home Loan" data-required><span class="opt__ico"><svg class="ico" aria-hidden="true"><use href="#i-home"></use></svg></span><span class="opt__txt">Home</span></label>
+                  <label class="opt"><input type="radio" name="loanTypeChoice" value="Vehicle Loan" data-required><span class="opt__ico"><svg class="ico" aria-hidden="true"><use href="#i-vehicle"></use></svg></span><span class="opt__txt">Vehicle</span></label>
+                  <label class="opt"><input type="radio" name="loanTypeChoice" value="Education Loan" data-required><span class="opt__ico"><svg class="ico" aria-hidden="true"><use href="#i-education"></use></svg></span><span class="opt__txt">Education</span></label>
+                  <label class="opt"><input type="radio" name="loanTypeChoice" value="Loan Against Property" data-required><span class="opt__ico"><svg class="ico" aria-hidden="true"><use href="#i-lap"></use></svg></span><span class="opt__txt">Against Property</span></label>
+                  <label class="opt"><input type="radio" name="loanTypeChoice" value="Gold Loan" data-required><span class="opt__ico"><svg class="ico" aria-hidden="true"><use href="#i-gold"></use></svg></span><span class="opt__txt">Gold</span></label>
+                  <label class="opt"><input type="radio" name="loanTypeChoice" value="Other" data-required><span class="opt__ico"><svg class="ico" aria-hidden="true"><use href="#i-info"></use></svg></span><span class="opt__txt">Other</span></label>
+                </div>
+              </section>
+
+              <section class="matcher__panel" data-step="2" role="group" aria-labelledby="aq2">
+                <h3 class="matcher__q" id="aq2">Required loan amount</h3>
+                <p class="matcher__hint">An approximate figure is fine &mdash; final limits are set by the lender.</p>
+                <div class="field" style="margin-top:22px;max-width:420px">
+                  <label for="a-amount">Amount (INR) <span class="req">*</span></label>
+                  <input class="input" type="text" inputmode="numeric" id="a-amount" name="amount" placeholder="e.g. 500000" data-required data-msg="Please enter the loan amount you are looking for.">
+                  <p class="field__err" hidden></p>
+                </div>
+                <div class="chip-group" style="margin-top:16px">
+                  <label class="chip"><input type="radio" name="amountHint" value="Up to 1 Lakh"><svg class="ico ico--sm" aria-hidden="true"><use href="#i-cash"></use></svg>Up to 1 Lakh</label>
+                  <label class="chip"><input type="radio" name="amountHint" value="1 Lakh - 10 Lakh"><svg class="ico ico--sm" aria-hidden="true"><use href="#i-cash"></use></svg>1 Lakh &ndash; 10 Lakh</label>
+                  <label class="chip"><input type="radio" name="amountHint" value="10 Lakh - 50 Lakh"><svg class="ico ico--sm" aria-hidden="true"><use href="#i-cash"></use></svg>10 Lakh &ndash; 50 Lakh</label>
+                  <label class="chip"><input type="radio" name="amountHint" value="Above 50 Lakh"><svg class="ico ico--sm" aria-hidden="true"><use href="#i-cash"></use></svg>Above 50 Lakh</label>
+                </div>
+              </section>
+
+              <section class="matcher__panel" data-step="3" role="group" aria-labelledby="aq3">
+                <h3 class="matcher__q" id="aq3">Employment type</h3>
+                <p class="matcher__hint">This helps us understand which documentation usually applies.</p>
+                <div class="matcher__opts">
+                  <label class="opt"><input type="radio" name="employment" value="Salaried" data-required data-msg="Please select your employment type."><span class="opt__ico"><svg class="ico" aria-hidden="true"><use href="#i-user"></use></svg></span><span class="opt__txt">Salaried</span></label>
+                  <label class="opt"><input type="radio" name="employment" value="Self Employed"><span class="opt__ico"><svg class="ico" aria-hidden="true"><use href="#i-briefcase"></use></svg></span><span class="opt__txt">Self Employed</span></label>
+                  <label class="opt"><input type="radio" name="employment" value="Business Owner"><span class="opt__ico"><svg class="ico" aria-hidden="true"><use href="#i-business"></use></svg></span><span class="opt__txt">Business Owner</span></label>
+                  <label class="opt"><input type="radio" name="employment" value="Professional"><span class="opt__ico"><svg class="ico" aria-hidden="true"><use href="#i-badge-check"></use></svg></span><span class="opt__txt">Professional</span></label>
+                  <label class="opt"><input type="radio" name="employment" value="Other"><span class="opt__ico"><svg class="ico" aria-hidden="true"><use href="#i-users"></use></svg></span><span class="opt__txt">Other</span></label>
+                </div>
+              </section>
+
+              <section class="matcher__panel" data-step="4" role="group" aria-labelledby="aq4">
+                <h3 class="matcher__q" id="aq4">Monthly income (approx.)</h3>
+                <p class="matcher__hint">Gross monthly income, as per your documents.</p>
+                <div class="field" style="margin-top:22px;max-width:420px">
+                  <label for="a-income">Income (INR) <span class="req">*</span></label>
+                  <input class="input" type="text" inputmode="numeric" id="a-income" name="monthlyIncome" placeholder="e.g. 60000" data-required data-msg="Please enter your approximate monthly income.">
+                  <p class="field__err" hidden></p>
+                </div>
+                <div class="chip-group" style="margin-top:16px">
+                  <label class="chip"><input type="radio" name="incomeBand" value="Below 25,000"><svg class="ico ico--sm" aria-hidden="true"><use href="#i-rupee"></use></svg>Below &#8377;25,000</label>
+                  <label class="chip"><input type="radio" name="incomeBand" value="25,000 - 75,000"><svg class="ico ico--sm" aria-hidden="true"><use href="#i-rupee"></use></svg>&#8377;25,000 &ndash; &#8377;75,000</label>
+                  <label class="chip"><input type="radio" name="incomeBand" value="75,000 - 1,50,000"><svg class="ico ico--sm" aria-hidden="true"><use href="#i-rupee"></use></svg>&#8377;75,000 &ndash; &#8377;1.5 Lakh</label>
+                  <label class="chip"><input type="radio" name="incomeBand" value="Above 1,50,000"><svg class="ico ico--sm" aria-hidden="true"><use href="#i-rupee"></use></svg>Above &#8377;1.5 Lakh</label>
+                </div>
+              </section>
+
+              <section class="matcher__panel" data-step="5" role="group" aria-labelledby="aq5">
+                <h3 class="matcher__q" id="aq5">Your city</h3>
+                <p class="matcher__hint">The city where you live, or where the property or vehicle is located.</p>
+                <div class="form-grid" style="margin-top:22px;max-width:640px">
+                  <div class="field">
+                    <label for="a-city">City <span class="req">*</span></label>
+                    <input class="input" type="text" id="a-city" name="city" placeholder="e.g. Hyderabad" data-required data-msg="Please enter your city.">
+                    <p class="field__err" hidden></p>
+                  </div>
+                  <div class="field">
+                    <label for="a-state">State</label>
+                    <select class="select" id="a-state" name="state">
+                      <option value="">Select state</option>
+                      <option>Andhra Pradesh</option><option>Assam</option><option>Bihar</option><option>Chhattisgarh</option>
+                      <option>Delhi</option><option>Goa</option><option>Gujarat</option><option>Haryana</option>
+                      <option>Himachal Pradesh</option><option>Jharkhand</option><option>Karnataka</option><option>Kerala</option>
+                      <option>Madhya Pradesh</option><option>Maharashtra</option><option>Odisha</option><option>Punjab</option>
+                      <option>Rajasthan</option><option>Tamil Nadu</option><option>Telangana</option><option>Uttar Pradesh</option>
+                      <option>Uttarakhand</option><option>West Bengal</option>
+                    </select>
+                  </div>
+                </div>
+              </section>
+
+              <section class="matcher__panel" data-step="6" role="group" aria-labelledby="aq6">
+                <h3 class="matcher__q" id="aq6">Mobile number</h3>
+                <p class="matcher__hint">So our team can contact you regarding available options.</p>
+                <div class="form-grid" style="margin-top:22px;max-width:640px">
+                  <div class="field">
+                    <label for="a-name">Full name <span class="req">*</span></label>
+                    <input class="input" type="text" id="a-name" name="fullName" placeholder="Your name" data-required data-msg="Please enter your name.">
+                    <p class="field__err" hidden></p>
+                  </div>
+                  <div class="field">
+                    <label for="a-phone">Mobile number <span class="req">*</span></label>
+                    <input class="input" type="tel" id="a-phone" name="mobile" placeholder="10-digit mobile number" inputmode="tel" maxlength="13" data-required data-msg="Please enter a valid 10-digit mobile number.">
+                    <p class="field__err" hidden></p>
+                  </div>
+                  <div class="field span-2">
+                    <label for="a-note">Anything we should know?</label>
+                    <textarea class="textarea" id="a-note" name="message" placeholder="Optional &mdash; e.g. existing loans, preferred category, preferred contact time" style="min-height:96px"></textarea>
+                  </div>
+                </div>
+                <label class="consent" style="margin-top:18px">
+                  <input type="checkbox" name="consent" value="Yes" data-required data-msg="Please accept to be contacted about your enquiry.">
+                  <span>I agree to be contacted by ROI Loan Experts about my loan enquiry, and I have read the <a href="privacy-policy.html">Privacy Policy</a> and <a href="disclaimer.html">Disclaimer</a>.</span>
+                </label>
+              </section>
+            </div>
+
+            <div class="matcher__foot">
+              <p class="matcher__err" role="alert" aria-live="polite"></p>
+              <div class="btns">
+                <button class="btn btn-ghost btn-sm is-disabled" type="button" data-prev><svg class="ico" aria-hidden="true"><use href="#i-chevron-left"></use></svg>Back</button>
+                <button class="btn btn-primary btn-sm" type="button" data-next>Continue<svg class="ico" aria-hidden="true"><use href="#i-arrow-right"></use></svg></button>
+                <button class="btn btn-primary btn-sm hide" type="submit" data-submit>Check My Options<svg class="ico" aria-hidden="true"><use href="#i-check"></use></svg></button>
+              </div>
+            </div>
+
+            <div class="hp" aria-hidden="true">
+              <label>Leave this field empty<input type="text" name="company_website" tabindex="-1" autocomplete="off"></label>
+            </div>
+          </form>
+
+          <div class="matcher hide" id="matcher-success" hidden>
+            <div class="success-panel">
+              <div class="success-panel__i"><svg class="ico" aria-hidden="true"><use href="#i-check-circle"></use></svg></div>
+              <h3 class="h3">Thank you. Our loan assistance team will review your details and contact you regarding available options.</h3>
+              <p class="lead" style="max-width:60ch;margin:16px auto 0">
+                Submission of this form does not guarantee a loan. Final eligibility, approval, interest rate, loan amount
+                and terms are determined by the respective bank or financial institution.
+              </p>
+              <div class="btn-row btn-row--center" style="margin-top:26px">
+                <a class="btn btn-primary" href="documents.html">Get Document Check</a>
+                <a class="btn btn-ghost" href="contact.html">Talk to an Expert</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <aside class="sidepanel sidepanel--sticky reveal">
+          <h2 class="sidepanel__t">What happens next</h2>
+          <ul class="checklist" style="margin-top:14px">
+            <li><span class="tick"><svg class="ico" aria-hidden="true"><use href="#i-check"></use></svg></span>We review the details you shared</li>
+            <li><span class="tick"><svg class="ico" aria-hidden="true"><use href="#i-check"></use></svg></span>We contact you to understand your requirement</li>
+            <li><span class="tick"><svg class="ico" aria-hidden="true"><use href="#i-check"></use></svg></span>We share the documents to arrange</li>
+            <li><span class="tick"><svg class="ico" aria-hidden="true"><use href="#i-check"></use></svg></span>We identify potentially suitable options</li>
+          </ul>
+          <hr class="divider" style="margin:22px 0">
+          <p class="small muted">Prefer to talk instead? Use the contact form and we will call you back.</p>
+          <a class="btn btn-primary btn-block" href="contact.html">Contact Us</a>
+          <a class="btn btn-ghost btn-block" style="margin-top:10px" href="faq.html">Read the FAQ</a>
+          <p class="xs muted" style="margin-top:16px;line-height:1.55">We never ask for OTPs, passwords or net banking credentials. Submission of this form does not create a loan application with any lender.</p>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--muted">
+    <div class="container">
+      <div class="section-head section-head--center reveal">
+        <p class="eyebrow eyebrow--center">Before you apply</p>
+        <h2 class="h2">Things Worth <span class="hl">Keeping in Mind</span></h2>
+      </div>
+      <div class="grid grid-4" data-stagger>
+        <div class="card reveal">
+          <span class="icon-badge"><svg class="ico" aria-hidden="true"><use href="#i-shield"></use></svg></span>
+          <h3 class="h4" style="margin-top:14px">No approval guarantee</h3>
+          <p class="small muted" style="margin-top:7px">The lender decides approval, amount, rate and terms after its own checks.</p>
+        </div>
+        <div class="card reveal">
+          <span class="icon-badge"><svg class="ico" aria-hidden="true"><use href="#i-file-check"></use></svg></span>
+          <h3 class="h4" style="margin-top:14px">Keep documents ready</h3>
+          <p class="small muted" style="margin-top:7px">KYC, income proof and bank statements are commonly required.</p>
+        </div>
+        <div class="card reveal">
+          <span class="icon-badge"><svg class="ico" aria-hidden="true"><use href="#i-lock"></use></svg></span>
+          <h3 class="h4" style="margin-top:14px">Stay alert to fraud</h3>
+          <p class="small muted" style="margin-top:7px">Never share OTPs or banking credentials with anyone, including us.</p>
+        </div>
+        <div class="card reveal">
+          <span class="icon-badge"><svg class="ico" aria-hidden="true"><use href="#i-clock"></use></svg></span>
+          <h3 class="h4" style="margin-top:14px">No fixed timeline</h3>
+          <p class="small muted" style="margin-top:7px">Processing time depends on documentation, verification and the lender.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>

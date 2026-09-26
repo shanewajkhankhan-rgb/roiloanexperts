@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Private / staging areas
+Disallow: /build/
+Disallow: /assets/js/
+
+Sitemap: https://www.roiloanexperts.com/sitemap.xml
